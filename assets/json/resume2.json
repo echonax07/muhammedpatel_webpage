@@ -1,0 +1,90 @@
+{
+    "basics": {
+      "name": "Muhammed Patel",
+      "label": "MaSc Candidate",
+      "image": "",
+      "email": "jhb.muhammed@gmail.com",
+      "phone": "+1 226-899-8165",
+      "url": "https://echonax07.github.io/",
+      "summary": "A passionate engineer specializing in Systems Design Engineering with a keen interest in Computer Vision, Machine Learning, and Deep Learning",
+      "location": {
+        "address": "Unit 65, 350 Columbia Street West",
+        "postalCode": "N2L 6G5",
+        "city": "Waterloo",
+        "countryCode": "CA",
+        "region": "Ontario"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "Muhammed Patel",
+          "url": "https://www.linkedin.com/in/muhammed-patel-01617414a/"
+        },
+        {
+          "network": "Github",
+          "username": "echonax07",
+          "url": "https://github.com/echonax07"
+        },
+        {
+          "network": "Google Scholar",
+          "username": "Muhammed Patel",
+          "url": "https://scholar.google.ca/citations?user=GnLDIEwAAAAJ&hl=en&oi=sra"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Philips Innovation Campus, Philips India Limited",
+        "position": "Research Intern",
+        "url": "https://www.philips.co.in/healthcare/innovation-and-research/philips-innovation-campus",
+        "startDate": "2021-05-01",
+        "endDate": "2021-07-01",
+        "summary": "Manually revised the annotations of more than 184 MRI images to improve the Ground truth quality with a higher inter-annotator agreement. Boosted deep learning model performance by 45% by implementing realistic data augmentation strategies for 3D Brain MRI images using the TorchIO library, accounting for machine and patient variations.",
+        "highlights": ["Contributed to software quality by engaging in unit testing and debugging, alongside conducting a comprehensive literature survey on active learning algorithms, leading to the development of a versatile PyTorch framework that supports customization for both models and datasets."]
+      },
+      {
+        "name": "King Abdullah University of Science and Technology",
+        "position": "Remote Research Intern",
+        "url": "https://www.kaust.edu.sa/en",
+        "startDate": "2020-06-01",
+        "endDate": "2020-08-01",
+        "summary": "Simulated a federated learning environment in Pytorch where training is happening across multiple decentralized edge devices holding sensitive data, without exchanging the data to address the data privacy concerns and sharing the locally trained model instead. Implemented lossy Compression schemes on local models to reduce the amount of data communicated when clients are communicating their local models to the central server, thus addressed the communication bottlenecks in training.",
+        "highlights": ["Implemented state of the art Compressed Loopless Gradient Descent (L2GD) algorithm, and benchmarked its performance on real datasets."]
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "University of Waterloo",
+        "location": "Waterloo, Ontario, Canada",
+        "url": "https://uwaterloo.ca/",
+        "area": "Systems Design Engineering",
+        "studyType": "MASc",
+        "startDate": "2022-09-01",
+        "endDate": "Present",
+        "score": "85.5/100",
+        "courses": []
+      },
+      {
+        "institution": "Indian Institute of Technology Kharagpur",
+        "location": "Kharagpur, India",
+        "url": "http://www.iitkgp.ac.in/",
+        "area": "Industrial Engineering and Management, Micro Specialization in Optimization Theory And Applications",
+        "studyType": "Dual Degree (B.Tech + M.Tech)",
+        "startDate": "2017-01-01",
+        "endDate": "2022-01-01",
+        "score": "8.92/10",
+        "courses": []
+      }
+    ],
+    "awards": [
+      {
+        "title": "International Master’s Award of Excellence (IMAE)",
+        "date": "2023-01-01",
+        "awarder": "University of Waterloo",
+        "url": "",
+        "summary": "Awarded International Master’s Award of Excellence (IMAE) valued at CA$12500 by the University of Waterloo."
+      },
+      {
+        "title": "Lalit Chugh and Hira Ahu
+  
