@@ -40,7 +40,9 @@
         "startDate": "2021-05-01",
         "endDate": "2021-07-01",
         "summary": "Manually revised the annotations of more than 184 MRI images to improve the Ground truth quality with a higher inter-annotator agreement. Boosted deep learning model performance by 45% by implementing realistic data augmentation strategies for 3D Brain MRI images using the TorchIO library, accounting for machine and patient variations.",
-        "highlights": ["Contributed to software quality by engaging in unit testing and debugging, alongside conducting a comprehensive literature survey on active learning algorithms, leading to the development of a versatile PyTorch framework that supports customization for both models and datasets."]
+        "highlights": [
+          "Contributed to software quality by engaging in unit testing and debugging, alongside conducting a comprehensive literature survey on active learning algorithms, leading to the development of a versatile PyTorch framework that supports customization for both models and datasets."
+        ]
       },
       {
         "name": "King Abdullah University of Science and Technology",
@@ -49,7 +51,9 @@
         "startDate": "2020-06-01",
         "endDate": "2020-08-01",
         "summary": "Simulated a federated learning environment in Pytorch where training is happening across multiple decentralized edge devices holding sensitive data, without exchanging the data to address the data privacy concerns and sharing the locally trained model instead. Implemented lossy Compression schemes on local models to reduce the amount of data communicated when clients are communicating their local models to the central server, thus addressed the communication bottlenecks in training.",
-        "highlights": ["Implemented state of the art Compressed Loopless Gradient Descent (L2GD) algorithm, and benchmarked its performance on real datasets."]
+        "highlights": [
+          "Implemented state of the art Compressed Loopless Gradient Descent (L2GD) algorithm, and benchmarked its performance on real datasets."
+        ]
       }
     ],
     "volunteer": [],
@@ -83,8 +87,132 @@
         "date": "2023-01-01",
         "awarder": "University of Waterloo",
         "url": "",
-        "summary": "Awarded International Master’s Award of Excellence (IMAE) valued at CA$12500 by the University of Waterloo."
-      },
-      {
-        "title": "Lalit Chugh and Hira Ahu
+        "summary": "Awarded International Master’s Award
+        of Excellence (IMAE) valued at CA$12500 by the University of Waterloo."
+    },
+    {
+      "title": "Lalit Chugh and Hira Ahuja International Graduate Scholarship",
+      "date": "2023-01-01",
+      "awarder": "University of Waterloo",
+      "url": "",
+      "summary": "Awarded Lalit Chugh and Hira Ahuja International Graduate Scholarship valued at CA $10000 by the University of Waterloo."
+    },
+    {
+      "title": "Inspire Scholarship",
+      "date": "",
+      "awarder": "Department of Science and Technology, Govt. of India",
+      "url": "",
+      "summary": "Awarded Inspire Scholarship by the Department of Science and Technology, Govt. of India."
+    },
+    {
+      "title": "VSRP Scholarship",
+      "date": "2020-06-01",
+      "awarder": "King Abdullah University of Science and Technology",
+      "url": "",
+      "summary": "Awarded US $3000 scholarship under the VSRP program to do a remote research internship at King Abdullah University of Science and Technology (KAUST), Saudi Arabia."
+    }
+  ],
+  "certificates": [],
+  "publications": [
+    {
+      "name": "Region-Level Labels in Ice Charts Can Produce Pixel-Level Segmentation for Sea Ice Types",
+      "publisher": "Proceedings of the ICLR 2024 Machine Learning for Remote Sensing (ML4RS) Workshop",
+      "releaseDate": "2024-01-01",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "The Influence of Input Image Scale on Deep Learning-Based Beluga Whale Detection from Aerial Remote Sensing Imagery",
+      "publisher": "IGARSS 2023-2023 IEEE International Geoscience and Remote Sensing Symposium",
+      "releaseDate": "2023-07-01",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "MMSeaIce: a collection of techniques for improving sea ice mapping with a multi-task model",
+      "publisher": "The Cryosphere",
+      "releaseDate": "2024-01-01",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Simulating Realistic MRI variations to Improve Deep Learning model and visual explanations using GradCAM",
+      "publisher": "2021 IEEE International Conference on Cloud Computing in Emerging Markets (CCEM)",
+      "releaseDate": "2021-10-01",
+      "url": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming languages",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Python",
+        "C",
+        "C++",
+        "Matlab",
+        "Shell scripting"
+      ]
+    },
+    {
+      "name": "Softwares/ Tools",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Linux",
+        "Git",
+        "Slicer 3D",
+        "IBM CPLEX (optimization software)",
+        "SLURM",
+        "Tableau",
+        "LATEX"
+      ]
+    },
+    {
+      "name": "Libraries (Python)",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Pytorch",
+        "Tensorflow",
+        "mmdetection",
+        "mmsegmentation",
+        "OpenCV",
+        "pandas",
+        "Flask",
+        "PyQt4",
+        "wandb"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [
+    {
+      "name": "Computer Vision, Machine Learning, Deep Learning, Object detection, Segmentation",
+      "icon": "",
+      "keywords": []
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Sea Ice Segmentation from multiple satellite sensors",
+      "summary": "Developed a foundation model using Masked autoencoders on SAR images using large amounts of SAR data. The developed model outperforms the specialist model in Sea ice classification by 5% using only 50% of the labeled data. Currently conducting additional experiments to validate the foundation model’s robustness across a range of downstream tasks, ensuring its versatility in various applications.",
+      "highlights": [],
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "url": ""
+    },
+    {
+      "name": "AutoIce Competition",
+      "summary": "Developed a multi-task UNet model for the detailed segmentation of ice concentration, types, and floe size directly from the fusion of multiple sources of data (Synthetic Aperture Radar, Passive Microwave, Wind, surface temperature). Introduced innovative techniques like SAR variable downscaling, spatial-temporal encoding, and strategic input feature selection to significantly enhance model accuracy. This solution achieved first place in the Autoice competition hosted by the European Space Agency (ESA), securing a spot as a key solution for future sea ice mapping challenges.",
+      "highlights": [],
+      "startDate": "",
+      "endDate": "",
+      "url": ""
+    }
+  ]
+}
   

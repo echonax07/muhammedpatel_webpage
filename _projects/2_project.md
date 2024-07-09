@@ -1,81 +1,65 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Autoice Competition
+description: Organised by European Space Agency
+img: assets/img/auto_ice_challenge.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We were given data from multiple sensors like synthetic aperture radar (SAR) imagery, ERA5 temperature data, AMSR2 passive microwave radiometer along with ice-chart-derived label maps as ground truth. The task was to build a model which takes the data from multiple sensors and outputs three ice products: 1) Sea Ice Concentration(SIC), 2) Stage of Development (SOD), 3) FLOE size
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/SAR_HH_HV.png" title="HH-HV" class="img-fluid rounded z-depth-1" %}
+         <div class="caption">
+   HH and HV channels of SAR image
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/GT.png" title="example image" class="img-fluid rounded z-depth-1" %}
+           <div class="caption">
+   GT maps: SIC, SOD, FLOE
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    </div>
+
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+Instead of focusing on complicated model architectures, we gave more emphasis on developing new tricks like input SAR variable downscaling, input feature selection, spatial–temporal encoding, and the choice of loss functions. These innovations helped us achieve the first place over 30 teams worldwide. 
+
+We utilized a very simple UNET and modified it a bit as shown in below figure.
+
+<div class="row text-center" >
+    <div class="col-sm mt-3 mt-md-8">
+        {% include figure.liquid loading="eager" path="assets/img/UNET.png" title="UNET" width="50%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The structure of the UNET. We have single encoder and a single decoder. Lastly we have three different head for three tasks : SIC, SOD, FLOE
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+Next let us see the results qualitatively. 
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/viz_autoice.png" title="Autoice viz" class="img-fluid rounded z-depth-1" width="70%"%}
+    </div>
 </div>
-```
+<div class="caption">
+   Visualization of the results. Top row shows the HH, HV channels; second row shows the GT; last row shows the prediction of the model.
+</div>
 
-{% endraw %}
+These simple yet effective solutions helped us to win the Autoice competition.
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/leaderboard.png" title="Leaderboard" class="img-fluid rounded z-depth-1" width="70%"%}
+    </div>
+</div>
+<div class="caption">
+  Autoice competition leaderboard
+</div>
+
+This is a joint project with my teammates at [VIP lab](https://vip.uwaterloo.ca/) and the The technical report is available at: [DOI](https://doi.org/10.5194/tc-18-1621-2024).
