@@ -26,8 +26,7 @@ We were given data from multiple sensors like synthetic aperture radar (SAR) ima
 
 </div>
 
-
-Instead of focusing on complicated model architectures, we gave more emphasis on developing new tricks like input SAR variable downscaling, input feature selection, spatial–temporal encoding, and the choice of loss functions. These innovations helped us achieve the first place over 30 teams worldwide. 
+Instead of focusing on complicated model architectures, we gave more emphasis on developing new tricks like input SAR variable downscaling, input feature selection, spatial–temporal encoding, and the choice of loss functions. These innovations helped us achieve the first place over 30 teams worldwide.
 
 We utilized a very simple UNET and modified it a bit as shown in below figure.
 
@@ -40,8 +39,8 @@ We utilized a very simple UNET and modified it a bit as shown in below figure.
     The structure of the UNET. We have single encoder and a single decoder. Lastly we have three different head for three tasks : SIC, SOD, FLOE
 </div>
 
+Next let us see the results qualitatively.
 
-Next let us see the results qualitatively. 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/viz_autoice.png" title="Autoice viz" class="img-fluid rounded z-depth-1" width="70%"%}

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Foundation model for SAR imagery
-description: using MAE for pretraining a ViT backbone on SAR data 
+description: using MAE for pretraining a ViT backbone on SAR data
 img: assets/img/MAE-picture.png
 importance: 1
 category: work
 related_publications: false
 ---
+
     ---
     Highlights
     -- Developed a SAR imagery foundation model using Masked Autoencoders (MAE) for feature learning.
@@ -42,8 +43,7 @@ I applied the MAE pre-training strategies and suprsingly the regeneration result
 
 </div>
 
-
-Next, let's invistigate the effect of pre-training on a downstream task (semantic segmentation of Sea Ice age).  
+Next, let's invistigate the effect of pre-training on a downstream task (semantic segmentation of Sea Ice age).
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -57,7 +57,7 @@ Next, let's invistigate the effect of pre-training on a downstream task (semanti
     Figure (a) shows the effect of different pretraining strategy. Figure (b) shows the effect of % of pretraining vs finetuning data. 
 </div>
 
-Lastly, let's visualize the segmentation quality using the pretrained model. 
+Lastly, let's visualize the segmentation quality using the pretrained model.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -69,4 +69,3 @@ Lastly, let's visualize the segmentation quality using the pretrained model.
 the second row shows the reconstructed HH, HV from 75% masked image, the third row shows the prediction of the AI4arctic
 benchmark model. The land area is filtered out in the segmentation maps
 </div>
-

@@ -32,9 +32,7 @@
       "startDate": "2022-09-01",
       "endDate": "Present",
       "score": "86.5/100",
-      "courses": [
-        "Thesis: Whale detection from Aerial images"
-      ]
+      "courses": ["Thesis: Whale detection from Aerial images"]
     },
     {
       "institution": "Indian institute of technology (IIT) Kharagpur",
@@ -45,41 +43,34 @@
       "startDate": "2017-08-01",
       "endDate": "2022-04-01",
       "score": "8.92/10",
-      "courses": [
-        "Thesis: Gym exercises posture correction using Computer Vision"
-      ]
+      "courses": ["Thesis: Gym exercises posture correction using Computer Vision"]
     }
   ],
   "interests": [
     {
       "name": "Deep learning",
       "icon": "fa-solid fa-heart",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Machine Learning",
       "icon": "fa-solid fa-heart",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "AI for Social good",
       "icon": "fa-solid fa-heart",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Remote Sensing",
       "icon": "fa-solid fa-heart",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Medical Imaging",
       "icon": "fa-solid fa-heart",
-      "keywords": [
-      ]
+      "keywords": []
     }
   ],
   "work": [
@@ -115,46 +106,26 @@
       "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "C++",
-        "C",
-        "Shell scripting",
-        "Matlab"
-      ]
+      "keywords": ["Python", "C++", "C", "Shell scripting", "Matlab"]
     },
     {
       "name": "Softwares/Tools",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "IBM CPLEX (optimization software)",
-        "Tablue",
-        "Slicer3D",
-        "Slurm",
-        "QGIS/ArcGIS"
-      ]
+      "keywords": ["IBM CPLEX (optimization software)", "Tablue", "Slicer3D", "Slurm", "QGIS/ArcGIS"]
     },
     {
       "name": "Libraries (python)",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Pytorch",
-        "Tensorflow",
-        "mmdetection",
-        "flask",
-        "pandas"
-      ]
+      "keywords": ["Pytorch", "Tensorflow", "mmdetection", "flask", "pandas"]
     }
   ],
   "projects": [
     {
       "name": "Foundation model for SAR imagery",
-      "summary":"",
-      "highlights": [
-        "Developed a foundation model using Masked autoencoders on SAR images using large amounts of SAR data"
-      ],
+      "summary": "",
+      "highlights": ["Developed a foundation model using Masked autoencoders on SAR images using large amounts of SAR data"],
       "startDate": "2024-01-01",
       "endDate": "Present",
       "url": "../projects/1_project/"
@@ -163,7 +134,9 @@
       "name": "AutoIce Competition",
       "summary": "",
       "highlights": [
-        "Developed a multi-task UNet model which won the first place in the Autoice competition hosted by the European Space Agency (ESA)","We were awarded €3000","This work was published in the Cryosphere journal"
+        "Developed a multi-task UNet model which won the first place in the Autoice competition hosted by the European Space Agency (ESA)",
+        "We were awarded €3000",
+        "This work was published in the Cryosphere journal"
       ],
       "startDate": "2023-01-01",
       "endDate": "2023-05-01",
@@ -173,7 +146,9 @@
       "name": "Pixel level segmentation from Region level labels",
       "summary": "",
       "highlights": [
-        "Developed a novel loss function that facilitates the training of pixel-level segmentation models using only region-level labels, bypassing the need for labor-intensive pixel-wise annotation", "This method outperforms the Auto ICE competition model and has significantly better accuracy(12% average) for minority classes", "This work was published at ICLR2024 in ML4RS"
+        "Developed a novel loss function that facilitates the training of pixel-level segmentation models using only region-level labels, bypassing the need for labor-intensive pixel-wise annotation",
+        "This method outperforms the Auto ICE competition model and has significantly better accuracy(12% average) for minority classes",
+        "This work was published at ICLR2024 in ML4RS"
       ],
       "startDate": "2024-02-01",
       "endDate": "2023-10-01",
@@ -223,10 +198,7 @@
       "startDate": "2014-04-01",
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": [
-        "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
-        "Men of the year 2014 by Time magazine"
-      ]
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "awards": [
@@ -335,12 +307,7 @@
       "name": "University of Waterloo",
       "level": "Master",
       "icon": "fa-solid fa-bullseye",
-      "keywords": [
-        "Advanced Image Processing",
-        "Statistical Image Processing",
-        "Remote Sensing",
-        "Modern Computer Vision and Data representation"
-      ]
+      "keywords": ["Advanced Image Processing", "Statistical Image Processing", "Remote Sensing", "Modern Computer Vision and Data representation"]
     },
     {
       "name": "IIT Kharagpur",
@@ -355,10 +322,7 @@
         "Non-Linear Programming",
         "Optimization and Heuristics",
         "Big Data Processing"
-
-
       ]
     }
   ]
-  
 }
